@@ -58,7 +58,7 @@
         $(function() {
           $('#gform').submit(function(){
             $.post($(this).attr('action'), $(this).serialize(), function() {
-              window.location = 'www.google.com';
+              window.location = 'https://script.google.com/macros/s/AKfycbzO2JBqXFqIX8qQc37BkZvL4Ijsz2NdwhQTESyc/exec';
               alert("Thanks! We'll be in touch in the next 24 hours.")
               $("#gform")[0].reset()
             });
