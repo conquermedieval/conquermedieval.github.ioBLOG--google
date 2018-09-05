@@ -17,13 +17,7 @@
     <div class="form-elements">
       <fieldset class="pure-group">
         <label for="name">Nome: </label>
-        <input id="name" name="name" placeholder="Digite seu nome" />
-      </fieldset>
-
-      <fieldset class="pure-group">
-        <label for="message">Mensagem: </label>
-        <textarea id="message" name="message" rows="7"
-        placeholder="Digite sua mensagem..."></textarea>
+        <input id="name" name="name" required placeholder="Digite seu nome" />
       </fieldset>
 
       <fieldset class="pure-group">
@@ -36,7 +30,13 @@
 
       <fieldset class="pure-group">
         <label for="assunto">Assunto: </label>
-        <input id="assunto" name="assunto" placeholder="Assunto" />
+        <input id="assunto" name="assunto" required placeholder="Assunto"></textarea>
+      </fieldset>
+
+      <fieldset class="pure-group">
+        <label for="message">Mensagem: </label>
+        <textarea id="message" name="message" rows="7"
+        required placeholder="Digite sua mensagem..."></textarea>
       </fieldset>
 
       <button class="button-success pure-button button-xlarge">
@@ -47,6 +47,7 @@
     <div class="thankyou_message" style="display:none;">
       <h2><em>Obrigado</em> sua mensagem foi enviada...!
         Obrigado brother!</h2>
+                  <img src="google/img_span_send/user.jpg">  
     </div>
 
   </form>
